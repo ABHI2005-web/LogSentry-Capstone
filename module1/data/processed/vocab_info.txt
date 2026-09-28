@@ -1,0 +1,6 @@
+vocab_size=34
+num_templates=34
+num_sequences=575061
+num_blocks_total=575061
+mean_sequence_length=19.43
+max_sequence_length=298

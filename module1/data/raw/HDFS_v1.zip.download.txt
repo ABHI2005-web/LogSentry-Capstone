@@ -1,0 +1,23 @@
+HDFS_v1.zip — NOT INCLUDED IN GIT
+==================================
+
+Reason: file is 178 MB, exceeds GitHub's 100 MB per-file limit.
+
+The actual zip is available in two ways:
+
+1) Shared Drive (team members):
+   https://drive.google.com/file/d/1l_7spCMiHv1BiKHdFV3exqb0jnKzX5KV/view?usp=sharing
+
+2) Public source (Zenodo — permanent, no auth needed):
+   https://zenodo.org/records/8196385/files/HDFS_v1.zip?download=1
+
+After downloading, place the file at:
+   module1/data/raw/HDFS_v1.zip
+
+Then re-run parsing_pipeline.ipynb. The notebook will detect the
+file and skip re-downloading.
+
+Contents of the zip:
+   HDFS.log                        (~1.5 GB uncompressed)
+   preprocessed/anomaly_label.csv  (17.8 MB)
+   preprocessed/...                (other files, not needed for this module)

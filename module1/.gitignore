@@ -1,0 +1,19 @@
+# Large files — kept on Drive, not in Git
+data/raw/HDFS_v1.zip
+data/processed/parsed_logs.csv
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/

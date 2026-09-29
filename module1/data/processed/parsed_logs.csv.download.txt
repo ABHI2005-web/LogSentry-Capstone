@@ -1,0 +1,17 @@
+parsed_logs.csv — NOT INCLUDED IN GIT
+======================================
+
+Reason: file is 368 MB, exceeds GitHub's 100 MB per-file limit.
+
+This is a DERIVED file — it can be regenerated in ~8 minutes by
+running:
+
+   module1/code/parsing_pipeline.ipynb
+
+Just open the notebook in Colab and run all cells top-to-bottom.
+The output will be written to:
+   module1/data/processed/parsed_logs.csv
+
+If you specifically need the pre-computed version:
+   https://drive.google.com/file/d/1kGQ9fnRqnTXpVTO5_4eDBRuYLYDoDZDJ/view?usp=sharing
+

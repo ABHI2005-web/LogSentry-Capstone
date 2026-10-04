@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw / large datasets
+Data/
+data/
+*.zip
+*.csv
+
+# Generated model files
+models/*.pt
+models/*.pth
+
+# Generated results
+results/
+
+# Temporary files
+*.tmp
+*.log
+
+!results/
+!results/M2_Baseline_Results.md
+!results/confusion_matrix.csv
+!results/confusion_matrix.png
+!results/deeplog_metrics.csv
+!results/training_loss_curve.png
+
+# Allow the M2 model
+!models/
+!models/deeplog_baseline.pth
